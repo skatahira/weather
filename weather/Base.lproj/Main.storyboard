@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y9M-q8-aLO">
+                                <rect key="frame" x="0.0" y="3" width="415" height="896"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Fransisco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sG5-lk-NBp">
+                                <rect key="frame" x="145.5" y="84" width="123" height="29"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGv-tg-2g1">
+                                <rect key="frame" x="174" y="115" width="66" height="29"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sunny" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0B-8H-mDp">
+                                <rect key="frame" x="0.0" y="376" width="415" height="29"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="℃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgI-NA-jLz">
+                                <rect key="frame" x="246" y="470" width="30" height="28"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucS-mR-Kwd">
+                                <rect key="frame" x="171" y="430" width="72" height="83"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01d" translatesAutoresizingMaskIntoConstraints="NO" id="KWx-d0-CNd">
+                                <rect key="frame" x="107" y="174" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="5SU-Ku-4Wm"/>
+                                    <constraint firstAttribute="width" constant="200" id="gj1-k0-hmX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sG5-lk-NBp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="9cq-fc-qNE"/>
+                            <constraint firstItem="CGv-tg-2g1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C26-KG-px6"/>
+                            <constraint firstItem="y9M-q8-aLO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Czo-z7-Ufu"/>
+                            <constraint firstItem="CgI-NA-jLz" firstAttribute="leading" secondItem="ucS-mR-Kwd" secondAttribute="trailing" constant="2" id="D3z-GI-Ara"/>
+                            <constraint firstItem="CgI-NA-jLz" firstAttribute="top" secondItem="Y0B-8H-mDp" secondAttribute="bottom" constant="25" id="Jyz-c3-Qhf"/>
+                            <constraint firstItem="sG5-lk-NBp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jz5-CG-DEf"/>
+                            <constraint firstItem="CgI-NA-jLz" firstAttribute="leading" secondItem="ucS-mR-Kwd" secondAttribute="trailing" constant="2" id="P7i-KJ-TXu"/>
+                            <constraint firstItem="ucS-mR-Kwd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QB5-X8-qkc"/>
+                            <constraint firstItem="Y0B-8H-mDp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V7h-9Q-Ovy"/>
+                            <constraint firstItem="ucS-mR-Kwd" firstAttribute="top" secondItem="Y0B-8H-mDp" secondAttribute="bottom" constant="25" id="XML-dx-BK4"/>
+                            <constraint firstItem="Y0B-8H-mDp" firstAttribute="top" secondItem="KWx-d0-CNd" secondAttribute="bottom" constant="2" id="aiO-tW-oZx"/>
+                            <constraint firstAttribute="trailing" secondItem="y9M-q8-aLO" secondAttribute="trailing" constant="-1" id="dKp-RJ-hzg"/>
+                            <constraint firstItem="CGv-tg-2g1" firstAttribute="top" secondItem="sG5-lk-NBp" secondAttribute="bottom" constant="2" id="ePE-Z4-Nb1"/>
+                            <constraint firstItem="KWx-d0-CNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fH2-xN-O3S"/>
+                            <constraint firstItem="KWx-d0-CNd" firstAttribute="top" secondItem="CGv-tg-2g1" secondAttribute="bottom" constant="30" id="jP4-t9-sIy"/>
+                            <constraint firstItem="y9M-q8-aLO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kLm-UL-0c6"/>
+                            <constraint firstItem="ucS-mR-Kwd" firstAttribute="firstBaseline" secondItem="CgI-NA-jLz" secondAttribute="baseline" constant="68" symbolType="layoutAnchor" id="pAN-9Q-V0u"/>
+                            <constraint firstAttribute="bottom" secondItem="y9M-q8-aLO" secondAttribute="bottom" id="sbG-Xb-n3e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="y9M-q8-aLO" id="fEC-bt-hUK"/>
+                        <outlet property="conditionImageView" destination="KWx-d0-CNd" id="emI-ZJ-c7L"/>
+                        <outlet property="conditionLabel" destination="Y0B-8H-mDp" id="cBt-0n-1K6"/>
+                        <outlet property="dayLabel" destination="CGv-tg-2g1" id="97Y-M9-uFy"/>
+                        <outlet property="locationLabel" destination="sG5-lk-NBp" id="NF5-GG-N3F"/>
+                        <outlet property="temperatureLabel" destination="ucS-mR-Kwd" id="Of5-E3-KXc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01d" width="512" height="512"/>
+    </resources>
+</document>
